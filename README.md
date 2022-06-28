@@ -28,5 +28,4 @@ Setup the Modules plugin as per the docs and add `layout: module` to your module
 
 # License
 
-This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de).
-We create visual designs for digital and analog media.
+This plugin is provided freely under the [MIT license](LICENSE.md) by [hana+nils · Büro für Gestaltung](https://hananils.de). We create visual designs for digital and analog media.

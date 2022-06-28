@@ -1,0 +1,15 @@
+{
+    "name": "hananils/kirby-modules-inline",
+    "description": "Inline editing for Kirby Modules",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hana+nils · Büro für Gestaltung",
+            "email": "buero@hananils.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/hananils/kirby-modules-inline/issues/"
+    }
+}
