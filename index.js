@@ -138,7 +138,6 @@ panel.plugin('hananils/modules-inline', {
                     }
                 });
             },
-            beforeDestroy() {},
             watch: {
                 $props() {
                     this.$forceUpdate();
@@ -151,7 +150,9 @@ panel.plugin('hananils/modules-inline', {
                 },
                 onLoad: function ({ target }) {
                     this.resizeObserver = new ResizeObserver(([entry]) => {
-                        this.$refs.preview.classList.remove('is-loading');
+                        if (this.$refs.preview) {
+                            this.$refs.preview.classList.remove('is-loading');
+                        }
 
                         target.style.height =
                             entry.contentBoxSize[0].blockSize + 'px';
