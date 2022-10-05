@@ -3,6 +3,7 @@
     "description": "Inline editing for Kirby Modules",
     "type": "kirby-plugin",
     "license": "MIT",
+    "version": "0.0.1",
     "authors": [
         {
             "name": "hana+nils · Büro für Gestaltung",
