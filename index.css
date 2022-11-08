@@ -184,6 +184,11 @@ body.inline .scroll-y-auto {
 }
 
 body.inline .k-overlay[data-centered='true'] {
-    align-items: end;
-    padding-bottom: 3rem;
+    align-items: start;
+    padding: 3rem 0;
+}
+
+/* revert dialog only */
+body.inline .k-overlay [class='k-dialog'] {
+    align-self: end;
 }
