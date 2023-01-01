@@ -1,3 +1,23 @@
+/* Empty */
+
+.k-empty[data-layout='module'] {
+    min-height: 38px;
+}
+
+[dir='ltr'] .k-empty[data-layout='module'] > .k-icon {
+    border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.k-empty[data-layout='module'] > .k-icon {
+    width: 36px;
+    min-height: 36px;
+}
+
+.k-empty[data-layout='module'] > p {
+    line-height: 1.25rem;
+    padding: 0.5rem 0.75rem;
+}
+
 /* Previews */
 
 .k-module-item {
