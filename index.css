@@ -212,3 +212,7 @@ body.inline .k-overlay[data-centered='true'] {
 body.inline .k-overlay [class='k-dialog'] {
     align-self: end;
 }
+
+body.inline .k-overlay .k-dialog-body {
+    max-height: 80vh;
+}
